@@ -12,7 +12,7 @@ const CodeExplainer = () => {
     setResult("");
 
     try {
-      const res = await axios.post("http://localhost:8080/api/explain", {
+      const res = await axios.post("https://ai-code-explainer-3-umnl.onrender.com/api/explain", {
         code,
       });
 
